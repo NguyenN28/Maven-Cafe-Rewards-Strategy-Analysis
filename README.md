@@ -1,4 +1,4 @@
-☕ Maven Cafe: Rewards Strategy Analysis
+# ☕ Maven Cafe: Rewards Strategy Analysis
 
 Role: Senior Marketing Analyst
 
@@ -6,11 +6,11 @@ Tool: Power BI (Power Query, DAX, Data Modeling)
 
 Dataset Source: [Maven Cafe Rewards Challenge Dataset]([https://www.mavenanalytics.io/data-playground](https://mavenanalytics.io/data-playground/great-american-coffee-taste-test)
 
-📋 Project Overview
+# 📋 Project Overview
 
 Maven Cafe conducted a 30-day test by sending various promotional offers (BOGO, Discounts, Informational) to rewards members. The goal of this analysis is to identify key customer segments and develop a data-driven strategy for future promotional messaging and targeting.
 
-🎯 Business Objectives:
+## 🎯 Business Objectives:
 
 Identify which offer types (BOGO vs. Discount) drive the highest conversion.
 
@@ -18,7 +18,7 @@ Determine the most effective communication channels (Email, Web, Social, Mobile)
 
 Segment customers based on demographics (Age, Income, Gender) to optimize targeting.
 
-🚀 Key Insights
+## 🚀 Key Insights
 
 Top Performer: Discount offers emerged as the most successful, achieving a 53% redemption rate.
 
@@ -28,7 +28,7 @@ Demographic Sweet Spot: Female customers with an income bracket of $60k - $80k s
 
 Engagement Lag: Informational offers have high view rates but require a stronger "Call to Action" or secondary reward to drive actual transactions.
 
-🛠️ Technical Implementation
+## 🛠️ Technical Implementation
 1. Data Modeling
 Built a Star Schema connecting three primary tables: Offers, Customers, and Transcript (Events).
 
@@ -46,12 +46,12 @@ Cleaned and formatted JSON-style strings in the Transcript table to extract Offe
 
 Filtered out "ghost" completions (where a user completed an offer they never actually viewed).
 
-📊 Dashboard Preview
+## 📊 Dashboard Preview
 
 ![Maven Cafe Dashboard](images/customer.png)
 ![Maven Cafe Dashboard](images/offer.png)
 
-💡 Recommendations
+## 💡 Recommendations
 
 Double down on Social: Prioritize BOGO offers through social media channels for the 18–35 age demographic.
 
