@@ -4,7 +4,7 @@ Role: Senior Marketing Analyst
 
 Tool: Power BI (Power Query, DAX, Data Modeling)
 
-**Dataset Source:** [Maven Cafe Rewards Challenge Dataset]([https://www.mavenanalytics.io/data-playground](https://mavenanalytics.io/data-playground/great-american-coffee-taste-test))
+Dataset Source: [Maven Cafe Rewards Challenge Dataset]([https://www.mavenanalytics.io/data-playground](https://mavenanalytics.io/data-playground/great-american-coffee-taste-test)
 
 📋 Project Overview
 
