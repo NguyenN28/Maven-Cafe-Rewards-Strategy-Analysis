@@ -30,11 +30,13 @@ Engagement Lag: Informational offers have high view rates but require a stronger
 
 ## 🛠️ Technical Implementation
 1. Data Modeling
+
 Built a Star Schema connecting three primary tables: Offers, Customers, and Transcript (Events).
 
 Handled many-to-many relationships between offers and transactions using a bridge table logic to ensure accurate attribution.
 
 2. Advanced DAX Measures
+
 Conversion Rate: Calculated the percentage of Viewed offers that resulted in a Completed transaction.
 
 Attributed Revenue: Isolated revenue generated specifically during an active offer window versus organic spending.
@@ -42,6 +44,7 @@ Attributed Revenue: Isolated revenue generated specifically during an active off
 Offer Velocity: Measured the average time from "Offer Received" to "Offer Completed."
 
 3. Power Query (ETL)
+
 Cleaned and formatted JSON-style strings in the Transcript table to extract Offer IDs and Transaction amounts.
 
 Filtered out "ghost" completions (where a user completed an offer they never actually viewed).
