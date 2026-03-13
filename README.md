@@ -41,7 +41,8 @@ Cleaned and formatted JSON-style strings in the Transcript table to extract Offe
 Filtered out "ghost" completions (where a user completed an offer they never actually viewed).
 
 📊 Dashboard Preview
-
+![Maven Cafe Dashboard](images/customer.png)
+![Maven Cafe Dashboard](images/offer.png)
 
 💡 Recommendations
 Double down on Social: Prioritize BOGO offers through social media channels for the 18–35 age demographic.
