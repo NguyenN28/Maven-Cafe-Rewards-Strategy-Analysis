@@ -2,7 +2,13 @@
 
 Role: Senior Marketing Analyst
 
-Tool: Power BI (Power Query, DAX, Data Modeling)
+Tech Stack:
+
+- Storage: Google BigQuery (Cloud Data Warehouse)
+
+- ETL/Processing: Power Query (M Language) for JSON parsing and data cleaning.
+
+- Visualization: Power BI for reward strategy insights.
 
 Dataset Source: [Maven Cafe Rewards Challenge Dataset]([https://www.mavenanalytics.io/data-playground](https://mavenanalytics.io/data-playground/great-american-coffee-taste-test)
 
